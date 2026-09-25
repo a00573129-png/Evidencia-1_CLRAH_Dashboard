@@ -293,7 +293,7 @@ with tab4:
 
     def color_dup(row):
         if row["País"] == "Haití":
-            return ["background-color: #FFF3CD"] * len(row)
+            return ["background-color: #DC143C"] * len(row)
         return [""] * len(row)
 
     st.dataframe(
